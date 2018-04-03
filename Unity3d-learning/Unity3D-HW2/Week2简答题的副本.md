@@ -85,7 +85,7 @@
 
 ### 效果图
 
-![ss](Pictures/solarsystem.png)
+![ss](Pictures的副本/solarsystem.png)
 
 代码部分主要实现了八大行星的公转部分。如果考虑自转也很简单，只要对每个行星添加Rotate（）的方法即可。
 
@@ -105,8 +105,8 @@
 
 ## 资源预制
 
-![prefab](Pictures/prefab.png)
+![prefab](Pictures的副本/prefab.png)
 
 ## 游戏效果图
 
-![scene](Pictures/scene.png)
+![scene](Pictures的副本/scene.png)
