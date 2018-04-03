@@ -1,0 +1,204 @@
+
+li{
+    list-style: none;
+}
+#bottom-positioner{
+    position: absolute;
+    width:400px;
+    height: 700px;
+    left: 65px;
+} 
+.button {
+    position: fixed;
+    left: 50%;
+    bottom: 15%;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+#info-bar {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: 51%;
+    bottom: 15%; 
+    background-color: #8E8E8E;   
+    transition: all 0.5s ease-out;
+    opacity: 0;
+    overflow: hidden;
+}
+#button:hover #info-bar{
+    position: fixed;
+    background-color: #8E8E8E;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;   
+    left: 45.5%;
+    bottom: 23%;
+    opacity: 1; 
+}
+.page span{
+    color: white;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+.user {
+    position: absolute;
+    top:10px;
+    left:50px;
+}
+#button:hover .user span {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+}
+.comment {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+#button:hover .comment span {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 35px;
+    color: white;
+    opacity: 1;
+}
+.mine {
+    display: inline-block;
+}
+.mine span {
+    position: absolute;
+    display: inline-block;
+    margin-left: 3px;
+    color: #079E6E;
+    font-weight: bold;
+    bottom: 0;
+    font-size: 23px;
+}
+.posted {
+    position: absolute;
+    top: 86px;
+    left: 31px;
+}
+.like {
+    position: absolute;
+    top: 85px;
+    left:77px;
+}
+.mask {
+    position: fixed;
+    background: url(assets/images/nomask.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    background-size: 0%;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+#button:hover .mask {
+    background: url(assets/images/nomask.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    left: 44%;
+    bottom: 21%; 
+    opacity: 1;
+}
+.history {
+    background: url(assets/images/history.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    background-size: 0%;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+#button:hover .history {
+    background: url(assets/images/history.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    left: 43%;
+    bottom: 15%;
+    opacity: 1;
+}
+.message {
+    background: url(assets/images/message.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    background-size: 0%;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+#button:hover .message {
+    background: url(assets/images/message.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    left: 44%;
+    bottom: 9%;
+    opacity: 1;
+}
+.unread {
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    left:24px;
+    bottom: 20px;
+    background-color: red;
+    line-height: 18px; 
+    text-align: center;
+    transition: all 0.5s ease-out;
+    color: white;
+}
+.setting {
+    background: url(assets/images/setting.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-out;
+    background-size: 0%;
+    opacity: 0;
+}
+#button:hover .setting {
+    background: url(assets/images/setting.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    left: 47%;
+    bottom: 4%;
+    opacity: 1;
+}
+.sign {
+    background: url(assets/images/signin.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    background-size: 0%;
+    transition: all 0.5s ease-out;  
+    opacity: 0;  
+}
+#button:hover .sign {
+    background: url(assets/images/signin.png) 50% 50% #585858;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    left: 51%;
+    bottom: 5%;
+    opacity: 1;
+}
+.icon{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    left: 50%;
+    bottom: 15%;    
+    background: url(assets/images/atplus_white.png) 50% 50% #6666CC;
+    background-repeat: no-repeat;
+    background-size: 75%;   
+    transition-duration:0.5s;
+    transition-delay:0.5s;
+    
+}
+#button:hover .icon{
+    background: url(assets/images/atplus_green.png) 50% 50% rgba(48, 63, 159, 1);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    transform: scale(2);
+    transition-duration:0.5s;
+    transition-delay: 0s;
+}

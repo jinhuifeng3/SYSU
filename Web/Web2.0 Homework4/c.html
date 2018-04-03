@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link href="calculator.css" type="text/css" rel="stylesheet" />
+</head>
+<body onload="onload()">
+	<div class="calculator">
+		<h1>Simple Calculator</h1>
+		<div class="input">
+				<input type="text" id="inputscreen" name="inputscreen" class="screen">
+		</div>
+		<div class="buttons">
+			<div class="rows">
+				<input type="button" id="7" value="7" onclick="show(this.id)" class="key">
+				<input type="button" id="8" value="8" onclick="show(this.id)" class="key">
+				<input type="button" id="9" value="9" onclick="show(this.id)" class="key">
+				<input type="button" id="10" value="/" onclick="show(this.id)" class="key rightline">
+			</div>
+			<div class="rows">
+				<input type="button" id="4" value="4" onclick="show(this.id)" class="key">
+				<input type="button" id="5" value="5" onclick="show(this.id)" class="key">
+				<input type="button" id="6" value="6" onclick="show(this.id)" class="key">
+				<input type="button" id="11" value="*" onclick="show(this.id)" class="key rightline">				
+			</div>
+			<div class="rows">
+				<input type="button" id="1" value="1" onclick="show(this.id)" class="key">
+				<input type="button" id="2" value="2" onclick="show(this.id)" class="key">
+				<input type="button" id="3" value="3" onclick="show(this.id)" class="key">
+				<input type="button" id="12" value="-" onclick="show(this.id)" class="key rightline">				
+			</div>
+			<div class="rows">	
+				<input type="button" id="0" value="0" onclick="show(this.id)" class="key">
+				<input type="button" id="13" value="." onclick="show(this.id)" class="key">
+				<input type="button" id="14" value="←" onclick="back()" class="key">
+				<input type="button" id="15" value="+" onclick="show(this.id)" class="key rightline">				
+			</div>
+			<div class="rows">
+				<input type="button" id="16" value="(" onclick="show(this.id)" class="key">
+				<input type="button" id="17" value=")" onclick="show(this.id)" class="key">
+				<input type="button" id="18" value="CE" onclick="clearall()" class="key">
+				<input type="button" id="19" value="=" onclick="equal()" class="key rightline">				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="calculate.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body{
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000");
+    font-family: Verdana,Tahoma;
+    font-size: 8pt;
+    margin:0; 
+    padding: 0;
+}
+h1{
+	font-size: 24pt;
+	font-weight: bold;
+	text-align:center;
+	font-family: Tahoma,Verdana;
+}
+dl{
+	margin: 10px;
+	padding: 0;
+	font-size: 8pt;
+	font-family: Arial;
+}
+dt{
+	font-weight: bold;
+	text-align:left;
+}
+q{
+	font-size: 8pt;
+	font-weight: bold;
+}
+p{
+	font-size: 8pt;
+}
+dd{
+	margin-bottom: 1em;
+}
+.head{
+	text-align:center;
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000");
+    height:50px;
+    background-repeat: repeat-x;
+}
+.content{
+	width: 800px;
+    border: 4px solid grey;	
+    margin: 0 auto; 
+}
+.review{
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
+    background-repeat: repeat-x;
+	height: 83px;
+	text-align:left;
+	margin: 0;
+	padding: 0;
+	vertical-align: bottom;
+}
+.comment{
+    border: 2px solid grey;	
+	padding: 8px;
+	font-size: 8pt;
+	font-weight: bold;
+	background: #E1D697;
+	min-height: 25px;
+}
+.leftpart{
+	width: 550px;
+	float: left;
+}
+.rightpart{
+	width: 250px;
+	float: right;
+	background: #A2B964;
+}
+.commentline{
+	width: 47%;
+    float: left;
+    margin-left:2%;
+}
+.w3clink{
+	position:fixed; bottom:0; right:0;
+}
+.picset{
+	margin-right: 5px;
+	float: left;
+}
+.commentspace{
+    margin-bottom: 3em;
+}
+.publish{
+	font-style: italic;
+}
+#largeRed{
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+}
+#white{
+	color: white;
+}
+#rottenset{
+	vertical-align: bottom;
+}
+#bottom{
+	background: #A2B964;
+	text-align:center;
+    clear: right;
+    margin: 0;
+	padding: 5px;
+}
+

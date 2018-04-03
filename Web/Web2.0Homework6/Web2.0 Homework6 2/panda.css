@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+#whole{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 100px;
+	height: 500px;
+	width: 900px;
+
+    
+}
+#left{
+	height: 500px;
+	width: 400px;
+
+	display: inline-block;
+
+
+}
+#right{
+	text-align: center;
+	height: 500px;
+	width: 400px;
+
+	float: right;
+}
+.top{
+   
+	text-align: center;
+	vertical-align: center;
+	height: 80px;
+	width: 400px;
+
+}
+#start{
+	color: white;
+	font-size: 20pt;
+	height: 40px;
+	width: 70px;
+	background:blue;
+	border: solid 1px black;
+
+}
+#play{
+    height: 370px; 
+    width: 370px;
+    margin-left: 20px;
+    padding-top: 4px;
+    position: relative;
+}
+#steps{
+	height: 20px;
+	width: 60px;
+	text-align: right;
+}
+.piece{
+	width: 88px;
+	height: 88px;
+	border: 1px solid;
+	margin: 1px;
+	margin-top: -4px;
+	background: url("p.jpeg");
+	transition: 0.2s;
+	position: absolute;
+}
+.piece:hover
+{
+	transform: scale(1.05);
+}

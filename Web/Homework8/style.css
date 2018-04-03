@@ -1,0 +1,184 @@
+
+li{
+    list-style: none;
+    color:#59C193;
+    font-weight:bold;
+    text-align: center;
+    font-size: 18pt;
+}
+#bottom-positioner{
+    position: absolute;
+    width:400px;
+    height: 700px;
+    left: 65px;
+
+} 
+#button{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 15%;  
+
+}
+#button:hover{
+    position: fixed;
+    border-radius: 0;
+    top: 425px;
+    left: 520px;
+    width: 175px;
+    height: 275px;
+  
+}
+.button {
+    position: fixed;
+    left: 50%;
+    bottom: 15%;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+#info-bar {
+    color:#59C193;
+    font-size: 25pt;
+    background: grey;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: 51%;
+    bottom: 15%; 
+    background-size: 0%;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+    overflow: hidden;
+}
+#button:hover #info-bar{
+    text-align: center;
+    line-height: 140px;
+    position: fixed;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;   
+    left: 45.5%;
+    bottom: 23%;
+    opacity: 1; 
+}
+.mask {
+    position: fixed;
+    background:  rgba(48, 63, 159, 1);
+    background-repeat: no-repeat;
+    background-size: 0%;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+#button:hover .mask {
+
+    left: 44%;
+    bottom: 21%; 
+    opacity: 1;
+}
+.history {
+    background:rgba(48, 63, 159, 1);
+
+    background-size: 0%;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+#button:hover .history {
+
+    left: 43%;
+    bottom: 15%;
+    opacity: 1;
+}
+.message {
+    background:rgba(48, 63, 159, 1);
+    background-repeat: no-repeat;
+    background-size: 0%;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+#button:hover .message {
+
+
+    left: 44%;
+    bottom: 9%;
+    opacity: 1;
+}
+.unread {
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    left:24px;
+    bottom: 20px;
+    background-color: red;
+    line-height: 24px; 
+    text-align: center;
+    transition: all 0.5s ease-out;
+    color: white;
+}
+.setting {
+    background:rgba(48, 63, 159, 1);
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-out;
+    background-size: 0%;
+    opacity: 0;
+}
+#button:hover .setting {
+    left: 47%;
+    bottom: 4%;
+    opacity: 1;
+}
+.sign {
+    background:rgba(48, 63, 159, 1);
+    background-repeat: no-repeat;
+    background-size: 0%;
+    transition: all 0.5s ease-out;  
+    opacity: 0;  
+}
+#button:hover .sign {
+    left: 51%;
+    bottom: 5%;
+    opacity: 1;
+}
+.icon{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    left: 50%;
+    bottom: 15%;    
+    background: url(images/atplus_white.png) 50% 50% #6666CC;
+    background-repeat: no-repeat;
+    background-size: 75%;   
+    transition-duration:0.5s;
+    transition-delay:0.5s;
+    
+}
+#button:hover .icon{
+    background: url(images/atplus_green.png) 50% 50% rgba(48, 63, 159, 1);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    transform: scale(2);
+    transition-duration:0.5s;
+    transition-delay: 0s;
+}
+.disable{
+    cursor: default;
+    background: grey;
+}
+#control-ring{
+    cursor: pointer;
+}
+.clicked{
+    background: grey;
+    cursor: default;
+}
+.canClick{
+    background: rgba(48, 63, 159, 1);
+}

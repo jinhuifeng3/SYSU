@@ -1,0 +1,212 @@
+/*晚22组 陈冬禹 16340016*/
+
+#at-plus-container {
+	margin: 70% 50%;
+	position: relative;
+}
+
+#bottom-positioner {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-image: url(assets/images/atplus_white.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AB82FF;
+	margin: 150px auto;
+	position: relative;
+	text-align: center;
+	transition: 1s 0.5s;
+}
+
+#bottom-positioner:hover {
+	width: 50px;
+	height: 50px;
+	background-image: url(assets/images/atplus_green.png);
+	background-size: 80%;
+	background-color: #0000FF;
+	background-position: center;
+	transition: 1s 0.5s;
+}
+
+#button {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	border: 30px solid transparent;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	opacity: 0;
+	transition: 1s 0.5s;
+	/*z-index: -1;*/
+}
+
+#bottom-positioner:hover #button {
+	width: 200px;
+	height: 200px;
+	transition: /*transform*/ 1s 0.5s/*, z-index 0s*/;
+	opacity: 1;
+	/*z-index: 1;*/
+}
+
+#bottom-positioner ul {
+	list-style: none;
+}
+
+#info-bar {
+	width: 130px;
+	height: 130px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #708090;
+	position: absolute;
+	top: -65px;
+	left: -65px;
+	transition: 1s 0.5s;
+}
+
+#bottom-positioner:hover #info-bar {
+	transition: 1s 0.5s;
+	position: absolute;
+	top: -148px;
+	left: -55px;
+}
+
+.info span {
+	margin-left: 5px;
+}
+
+.page-user {
+	color: white;
+	font-size: 1.5em;
+	position: absolute;
+	top: 5px;
+	left: 50px;
+}
+
+.page-comment {
+	color: white;
+	font-size: 2em;
+	position: absolute;
+	top: 35px;
+	left: 50px;
+}
+
+.mine-posted {
+	color: #00FF7F;
+	position: absolute;
+	top: 80px;
+	left: 25px;
+}
+
+.mine-like {
+	color: #00FF7F;
+	position: absolute;
+	top: 80px;
+	left: 75px;
+}
+
+#control-ring li {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #708090;
+	transition: 1s 0.5s;
+}
+
+.unread {
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	color: white;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	background-repeat: 50%;
+	background-color: red;
+	position: absolute;
+	top: -5px;
+	left: 21px;
+	transition: 1s 0.5s;
+}
+
+.mask-button {
+	background-image: url(assets/images/nomask.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.history-button {
+	background-image: url(assets/images/history.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.message-button {
+	background-image: url(assets/images/message.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.setting-button {
+	background-image: url(assets/images/setting.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sign-button {
+	background-image: url(assets/images/signout.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#bottom-positioner:hover .mask-button {
+	position: absolute;
+	top: -35px;
+	left: -66px;
+	transition: 1s 0.5s;
+}
+
+#bottom-positioner:hover .history-button {
+	position: absolute;
+	top: 3px;
+	left: -75px;
+	transition: 1s 0.5s;
+}
+
+#bottom-positioner:hover .message-button {
+	position: absolute;
+	top: 40px;
+	left: -62px;
+	transition: 1s 0.5s;
+}
+
+#bottom-positioner:hover .setting-button {
+	position: absolute;
+	top: 62px;
+	left: -28px;
+	transition: 1s 0.5s;
+}
+
+#bottom-positioner:hover .sign-button {
+	position: absolute;
+	top: 58px;
+	left: 13px;
+	transition: 1s 0.5s;
+}
+
+

@@ -1,0 +1,14 @@
+h1{
+	 color: #C1FFE4;
+	 font-size: 45pt;
+}
+body{
+	 background-image:url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505458881744&di=1fb5e1951fde1578872531fa1e6ccb6a&imgtype=0&src=http%3A%2F%2Fbpic.ooopic.com%2F16%2F14%2F80%2F16148063-9a16a9b4895ccb11468bdbd2d0accb86-2.jpg");
+}
+h2{
+	 color: red;
+	 text-align: center;
+}
+audio{
+	 position:fixed; bottom:0; right:0;
+}

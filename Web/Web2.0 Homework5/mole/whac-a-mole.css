@@ -1,0 +1,40 @@
+
+h1, p{
+	text-align: center;
+}
+li{
+	font-size: 13px;
+}
+#time{
+	width: 50px;
+
+}
+#score{
+	width: 50px;
+}
+#state{
+	margin-right: 15px;
+}
+#instructions{
+	width: 800px;
+	margin-left: 300px;
+	margin-top: 30px;
+}
+#instructions p{
+	text-align: left;
+	left: 50px;
+	font-weight: bold;
+}
+#mainBlock{
+	width: 220px;
+	height: 145px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:30px;
+	padding: 5px;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+.button{
+	margin: 5px;
+}
