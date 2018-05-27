@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="singleCPU_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="singleCPU_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/ins" type="array">
+      <obj_property name="ElementShortName">ins[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/nextAddr" type="array">
+      <obj_property name="ElementShortName">nextAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextAddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/aluRESULT" type="array">
+      <obj_property name="ElementShortName">aluRESULT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluRESULT[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/writeDATA" type="array">
+      <obj_property name="ElementShortName">writeDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/readDATA1" type="array">
+      <obj_property name="ElementShortName">readDATA1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readDATA1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/readDATA2" type="array">
+      <obj_property name="ElementShortName">readDATA2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readDATA2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/extendDATA" type="array">
+      <obj_property name="ElementShortName">extendDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">extendDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/DATAOUT" type="array">
+      <obj_property name="ElementShortName">DATAOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATAOUT[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/INSOP" type="array">
+      <obj_property name="ElementShortName">INSOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">INSOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/aluOP" type="array">
+      <obj_property name="ElementShortName">aluOP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOP[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/PCSRC" type="array">
+      <obj_property name="ElementShortName">PCSRC[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSRC[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/singleCPU_sim/ZERO" type="logic">
+      <obj_property name="ElementShortName">ZERO</obj_property>
+      <obj_property name="ObjectShortName">ZERO</obj_property>
+   </wvobject>
+</wave_config>

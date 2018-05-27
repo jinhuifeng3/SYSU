@@ -1,0 +1,35 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/selector3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/selector32_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector32_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/selector5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/selector32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/PCAddNum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAddNum
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/PcAddFour.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PcAddFour
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/Jump.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Jump
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/InsMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InsMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/DataMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMEM
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/DataMEM.v:31]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sources_1/new/Main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.srcs/sim_1/new/singleCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singleCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SingleT_CPU/SingleT_CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
