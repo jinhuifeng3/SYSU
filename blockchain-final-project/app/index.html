@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lottery_demo</title>
+</head>
+<body>
+  <div id="top">
+    <input type="text" id="user" placeholder="Your address"></input>
+    <button id="login" onclick="log()">Log in</button>
+  </div>
+  <h1>Hi!LOTTERY</h1>
+  <hr/>
+
+      <h2 id="follow">FOLLOW THE RULES</h2>
+      <div id="rules">
+      <ul>
+          <li>Before using following function, you have to log in first.</li>
+          <li>The reward of one lucky ticket = the value of total issued tickets/lucky tickets' number.</li>
+          <li>Have a look of the lottery on the run, then you can determine your choice.</li>
+          <li>If the tickets sold out, the result will show atomatically and immediately in your "ACCOUNT INFO".</li>
+          <li>You are allowed to issue a new kind of lottery, unprofitable, and if it can't be sold out you can cancel it.</li>
+
+      </ul>
+      </div>
+
+      <br>
+      <br>
+
+  <div id="down">
+  <ul id="list">
+
+  <li class="row">
+      <div class="item">
+        <i><h2>ACCOUNT INFO</h2></i>
+        <p id="reminder">Please log in first!</p>
+        <div id='personal' style="display:none;">
+            <h3>Basic Info</h3>
+            <div id='basic'>
+        
+                
+            </div>
+            <div id='issued_block'>
+                <h3>You issued</h3>
+                <select id="iss_op">
+                </select><br><br>
+                <button class="issuedbtn" onclick="learnMore()" id='iss_more'>Get its Info</button>
+                <button class="issuedbtn" onclick="cancel()">Disable it!</button>
+                <div id='I_more'>
+                </div> 
+            </div> 
+            <div id='bought_block'>
+                <h3>You own</h3>
+                <select id="buy_op">
+                </select><br><br>
+                <button class="issuedbtn" onclick="check()">Check serial number</button>
+                <button class="issuedbtn" onclick="getWinners()">Who is the winner?</button>
+                <div id='B_more'>
+                </div> 
+            </div>
+        </div>
+      </div> 
+      </li>
+  <li class="row">
+  <div class="item" id="iss">
+    <i><h2>ISSUE LOTTERY</h2></i>
+
+    I 'd like to issue 
+    <input type="text"  class="short_input" placeholder="eg:20" id="num"></input>tickets totally!
+    One ticket costs 
+    <input type="text"  class="short_input" placeholder="eg:50" id="price"></input>ether!
+    And
+    <input type="text"  class="short_input" placeholder="<total" id="winners">tickets will be rewarded!
+
+    <button onclick="issue()">Go!</button>
+    <br><br><br><br>
+    <i><h2>BUY TICKETS</h2></i>
+    <div id='public'>
+        <select id='public_ops'>
+
+        </select>
+        <button onclick="learnMore()">Get Info</button><br><br>
+        Tickets Number:
+        <input type="text" id='buyamount' class="short_input" placeholder="eg:10"></input>
+        <button onclick="buy()">Buy</button>
+    </div>
+  </div>
+  </li>
+  <ul>
+  </div>
+  <script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>

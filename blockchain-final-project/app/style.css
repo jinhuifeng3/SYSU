@@ -1,0 +1,99 @@
+h1 {
+  vertical-align: center;
+  text-align: center;
+  font-size: 65px;
+  font-weight:100;
+  margin: 0;
+  padding: 0;
+
+}
+
+input{
+margin: 0;
+padding: 0;
+height:25px;
+text-align: center;
+}
+#user{
+width: 300px;
+}
+button{
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height:28px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#top{
+  text-align: right;
+  margin: auto;
+  width: 1230px;
+  height: 35px;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: orange;
+}
+li{
+    text-align: left;
+    font-size: 20px;
+}
+.item{
+  float: right;
+  width: 400px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  border: 1px solid black;
+  height: 500px;
+}
+select{
+width: 320px;
+height: 25px;
+}
+.short_input{
+width: 70px;
+}
+p{
+color: red;
+}
+.issuedbtn{
+  width: 150px;
+
+  margin-left: 5px;
+}
+#buyamount{
+  margin-left: 25px;
+  width: 169px;
+}
+#rules{
+  margin: auto;
+  width: 700px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+ul{
+  text-align: center;
+  width: 1000px;
+  margin:auto;
+}
+#down{
+  height: 800px;
+}
+.row{
+  display: inline-block;
+}
+#iss{
+
+  padding-left: 10px;
+  text-align: left;
+}
+#follow{
+  color: coral;
+}
